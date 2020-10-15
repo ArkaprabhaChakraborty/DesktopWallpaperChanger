@@ -5,6 +5,7 @@ import urllib.request as url
 
 a = "yhM2ZxT7Bwk5yCWNLbn_QOiAfmTEWRrSJSbkbQ4ityw"
 query = "ocean" #change it as you like !!
+
 x = "https://api.unsplash.com/search/collections?query="+query+"&page=1&per_page=30&client_id="+a
 j = requests.get(x)
 j = j.json()
