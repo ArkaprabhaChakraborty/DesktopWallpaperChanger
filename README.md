@@ -1,5 +1,6 @@
 # DesktopWallpaperChanger
 A desktop wallpaper changer for windows 10.
+
 # How to run
 -> run wallpaper.py first.  
 -> type your preffered image genre.  
@@ -14,3 +15,12 @@ Then I download it using urllib.retrieve() into the images dirctory. This is don
 The call.py script iteratively chooses a random image from the images directory and changes the wallpaper using ctypes.  
 The script uses ctypes to load user32.dll and call SystemParametersInfoW().   
 # Some default images has been added but the image folder can be deleted
+
+# how to run
+-> run wallpaper.py first.  
+-> type your preffered image genre.  
+-> run call.py to see it work.  
+# requirements
+-> python 3  
+# some default images has been added but the image folder can be deleted
+
